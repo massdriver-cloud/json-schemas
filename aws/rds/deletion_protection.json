@@ -1,0 +1,6 @@
+{
+  "title": "Deletion Protection",
+  "description": "Explicitly requires this field to be unset before allowing deletion.",
+  "type": "boolean",
+  "default": true
+}
