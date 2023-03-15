@@ -1,0 +1,27 @@
+{
+  "title": "Aurora V2 Serverless Scaling",
+  "description": "Each ACU is a combination of approximately 2 gibibytes (GiB) of memory, corresponding CPU, and networking. [Learn more](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.how-it-works.html)",
+  "type": "object",
+  "required": [
+    "min_capacity",
+    "max_capacity"
+  ],
+  "properties": {
+    "min_capacity": {
+      "title": "Minimum ACUs",
+      "description": "Minimum _Aurora Capacity Units_.",
+      "type": "number",
+      "multipleOf": 0.5,
+      "minimum": 0,
+      "maximum": 128
+    },
+    "max_capacity": {
+      "title": "Maximum ACUs",
+      "type": "number",
+      "description": "Maximum _Aurora Capacity Units_. **Must** be greater than `min_capacity`.",
+      "multipleOf": 0.5,
+      "minimum": 0.5,
+      "maximum": 128
+    }
+  }
+}
