@@ -1,0 +1,8 @@
+{
+  "title": "Backup Retention Period",
+  "description": "The days to retain backups for.",
+  "type": "integer",
+  "default": 7,
+  "minimum": 1,
+  "maximum": 35
+}
