@@ -12,6 +12,7 @@
       "description": "Minimum _Aurora Capacity Units_.",
       "type": "number",
       "multipleOf": 0.5,
+      "default": 1,
       "minimum": 0,
       "maximum": 128
     },
@@ -21,6 +22,7 @@
       "description": "Maximum _Aurora Capacity Units_. **Must** be greater than `min_capacity`.",
       "multipleOf": 0.5,
       "minimum": 0.5,
+      "defalt": 2,
       "maximum": 128
     }
   }
