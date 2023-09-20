@@ -1,0 +1,7 @@
+{
+  "title": "Namespace",
+  "type": "string",
+  "pattern": "^[a-z0-9]([-a-z0-9]*[a-z0-9])?$",
+  "minLength": 1,
+  "maxLength": 63
+}
