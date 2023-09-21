@@ -1,7 +1,12 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema",  
   "title": "Namespace",
   "type": "string",
   "pattern": "^[a-z0-9]([-a-z0-9]*[a-z0-9])?$",
   "minLength": 1,
-  "maxLength": 63
+  "maxLength": 63,
+  "default": "default",
+  "message": {
+    "pattern": "Name must follow RFC 1123: at most 63 characters, only lowercase alphanumeric characters or '-', and start and end with an alphanumeric character."
+  }  
 }
