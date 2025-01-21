@@ -22,7 +22,7 @@
       "description": "Maximum _Aurora Capacity Units_. **Must** be greater than `min_capacity`.",
       "multipleOf": 0.5,
       "minimum": 0.5,
-      "defalt": 2,
+      "default": 2,
       "maximum": 128
     }
   }
